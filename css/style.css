@@ -1,0 +1,39 @@
+/* ================== */
+/* HEADER SECTION */
+/* ================== */
+#particles-js{
+    background: red;
+}
+.banner{
+    position: relative
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white
+}
+.navbar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%
+}
+@media (min-width:320px) and (max-width:576px){
+    .hero-text h1{
+        color: blue;
+        font-size: 27px
+    }
+}
+
+@media (min-width:577px) and (max-width:720px){
+    .hero-text h1{
+        color: yellow;
+	font-size: 62px;
+        
+    }
+}
